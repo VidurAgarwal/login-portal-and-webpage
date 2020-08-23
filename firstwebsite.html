@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style-firstwebsite.css">
+</head>
+<body>
+<nav>
+<ul class="topnav-left" id="dropdownclick">
+    <li><a href="#home">home</a></li>
+    <li><a href="#news">news</a></li>
+    <li><a href="#contact">contact</a></li>
+    <li><a href="#about">about</a></li>
+    <li class="topnav-right"><a href="#sign up">sign up</a></li>
+    <li class="topnav-right"><a href="#sign in">sign in</a></li> 
+    <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+</ul>
+</nav>
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="left-side">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Devslopers</h1>
+                </div>
+                <form>
+                <div class="left-side">
+                    <h2>Username</h2>
+                    <input class="inputbox" name="username" type="text" placeholder="Username">
+                    <h2>Password</h2>
+                    <input class="inputbox" name="password" type="text" placeholder="Password">
+                </div>
+            </form>
+            </div>
+            <div class="col-6">
+                <div class="right-side">
+                    <div class="videocontainer">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rYeSA1vgIUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+    
+    
+    <header>
+        <h1 class="section1header">The Standards Of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devslopes.png">
+                    </div>
+                    <label>Chat With Me</label>
+                    <p> We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devslopes.png">
+                    </div>
+                    <label>Learn to Code</label>
+                    <p> We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devslopes.png">
+                    </div>
+                    <label>Build an Empire</label>
+                    <p> We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+            <button class="learnmore">Learn More</button>
+        </div>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                <p> We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment. We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment. We denounce with righteous indignation and dislike men who are so demoralized by the charms of pleasure of the moment.</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <div class="slopeicon">
+            <img src="ios_slopes.jfif">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <footer class="footsy">
+    <div class="row">
+        <div class="col-3 mobilestack">
+            <h1>Company</h1>
+            <ul>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Careers</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>Products</h1>
+            <ul>
+            <li>Computers</li>
+            <li>ipads</li>
+            <li>iphones</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>Learn More</h1>
+            <ul>
+            <li>Developers</li>
+            <li>Designers</li>
+            <li>Hackers</li>
+            </ul>
+        </div>
+        <div class="col-3 mobilestack">
+            <h1>Support</h1>
+            <ul>
+            <li>Help</li>
+            <li>QA</li>
+            <li>Conact</li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    
+    <script>
+    function dropdownmenu(){
+        var x=document.getElementById("dropdownclick");
+        if(x.className==="topnav-left"){
+            x.className+=" responsive";
+//            change topnav-left to topnav-left.responsive and make sure there is space between inverted commas and responsive
+        } else{
+            x.className="topnav-left";
+        }
+    }
+    </script>
+</body>
+</html>
